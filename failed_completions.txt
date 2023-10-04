@@ -1,0 +1,462 @@
+```json
+{
+    "prompt": "Create a compelling subject line to announce a new summer collection. Include {{contact.first_name|default:hey}}, include {{shop_name}}.",
+    "subject_lines": [
+        "Unveiling Summer Styles, {{contact.first_name|default:hey}}! Discover Trends at {{shop_name}}",
+        "Say Hello to Summers, {{contact.first_name|default:hey}}! Explore New Collection at {{shop_name}}",
+        "New Summer Collection at {{shop_name}}, Just for You {{contact.first_name|default:hey}}",
+        "Time to Update Your Wardrobe, {{contact.first_name|default:hey}}! Shop at {{shop_name}}",
+        "Summer Fashion Alert, {{contact.first_name|default:hey}}! Check Out New Arrivals at {{shop_name}}",
+        "Get Summer Ready, {{contact.first_name|default:hey}} with {{shop_name}}'s New Collection",
+        "Turn Heads this Summer, {{contact.first_name|default:hey}}! Amazing Styles Now at {{shop_name}}",
+        "Summer Styles are Here, {{contact.first_name|default:hey}}! Discover the Range at {{shop_name}}",
+        "Stay Cool and Stylish, {{contact.first_name|default:hey}}! Shop Summer Collection at {{shop_name}}",
+        "{{shop_name}} Presents: New Summer Collection for You, {{contact.first_name|default:hey}}!"
+    ]
+},
+{
+    "prompt": "Create a subject line for an email about a limited-time sale on tech gadgets. Include {{contact.first_name|default:tech enthusiast}}, include {{shop_name}}.",
+    "subject_lines": [
+        "Limited Time Offer! Score Best Deals on Tech Gadgets {{contact.first_name|default:tech enthusiast}} at {{shop_name}}",
+        "Hey {{contact.first_name|default:tech enthusiast}}, Don't Miss {{shop_name}}'s Flash Sale on Tech Gadgets!",
+        "Epic Gadget Sale at {{shop_name}}, Just for You {{contact.first_name|default:tech enthusiast}}",
+        "Save Big on Tech at {{shop_name}}'s Limited-Time Sale, {{contact.first_name|default:tech enthusiast}}",
+        "Time-Sensitive! Tech Sale at {{shop_name}} Awaits You {{contact.first_name|default:tech enthusiast}}",
+        "Hey {{contact.first_name|default:tech enthusiast}}, Grab Your Favorite Gadgets at {{shop_name}}'s Sale",
+        "Best Tech Deals at {{shop_name}} - Limited Time Only, {{contact.first_name|default:tech enthusiast}}",
+        "{{shop_name}}'s Tech Gadget Sale: It's Now or Never, {{contact.first_name|default:tech enthusiast}}",
+        "Unmissable Tech Deals at {{shop_name}} for Our Favorite Customer, {{contact.first_name|default:tech enthusiast}}",
+        "Hurry, {{contact.first_name|default:tech enthusiast}}! {{shop_name}}'s Gadget Sale Won't Last Forever"
+    ]
+},
+{
+    "prompt": "Create a subject line for an email promoting a new loyalty program. Include {{contact.first_name|default:loyal customer}}, include {{shop_name}}.",
+    "subject_lines": [
+        "You're Invited, {{contact.first_name|default:loyal customer}}: Explore {{shop_name}}'s Exciting New Loyalty Program",
+        "Unlock Exclusive Benefits with {{shop_name}}'s New Loyalty Program, {{contact.first_name|default:loyal customer}}",
+        "Exclusive for You, {{contact.first_name|default:loyal customer}}! {{shop_name}}'s New Loyalty Program",
+        "Step Up Your Shopping, {{contact.first_name|default:loyal customer}} with {{shop_name}}'s Rewarding Loyalty Program",
+        "Earn More With Every Purchase, {{contact.first_name|default:loyal customer}}! Join {{shop_name}}'s Loyalty Program",
+        "Join the Club, {{contact.first_name|default:loyal customer}}! Exclusive Rewards Await at {{shop_name}}",
+        "Welcome to the Next Level of Shopping, {{contact.first_name|default:loyal customer}} at {{shop_name}}",
+        "Get Rewarded for Shopping, {{contact.first_name|default:loyal customer}}! Check Out {{shop_name}}'s Loyalty Program",
+        "{{shop_name}}'s Loyalty Program: Made Just for You, {{contact.first_name|default:loyal customer}}",
+        "Join the Exclusive {{shop_name}} Loyalty Program, {{contact.first_name|default:loyal customer}} and Enjoy Extra Perks"
+    ]
+},
+{
+    "prompt": "Create a subject line for an email highlighting the holiday gift guide. Include {{contact.first_name|default:shopper}}, include {{shop_name}}.",
+    "subject_lines": [
+        "Find the Perfect Gift with {{shop_name}}'s Holiday Gift Guide, {{contact.first_name|default:shopper}}",
+        "Hey {{contact.first_name|default:shopper}}, Let {{shop_name}} be Your Holiday Shopping Destination",
+        "Ease Your Holiday Shopping, {{contact.first_name|default:shopper}} with {{shop_name}}'s Gift Guide",
+        "Get Ready for the Holidays, {{contact.first_name|default:shopper}}! Explore {{shop_name}}'s Gift Guide",
+        "Your Ultimate Holiday Gift Guide is Here, {{contact.first_name|default:shopper}} at {{shop_name}}",
+        "Hassle-free Holiday Shopping at {{shop_name}}, Just for You {{contact.first_name|default:shopper}}",
+        "Discover the Joy of Giving with {{shop_name}}'s Holiday Gift Guide, {{contact.first_name|default:shopper}}",
+        "Hey {{contact.first_name|default:shopper}}, Simplify Your Gift-giving with {{shop_name}}",
+        "Take the Guesswork Out of Gifts, {{contact.first_name|default:shopper}} - Shop at {{shop_name}}",
+        "Gifts that Delight at {{shop_name}}, Don't Miss Out {{contact.first_name|default:shopper}}"
+    ]
+},
+{
+    "prompt": "Create a subject line for an email announcing a Black Friday Sale. Include {{contact.first_name|default:hey}}, include {{contact.last_name|default:bargain hunter}}, include {{shop_name}}.",
+    "subject_lines": [
+        "Black Friday Deals Start Now, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}} at {{shop_name}}",
+        "Get Set for Black Friday, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}! Amazing Deals at {{shop_name}}",
+        "Are You Ready, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}? Black Friday is Here at {{shop_name}}",
+        "Black Friday Alert! Enjoy Huge Savings {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}} at {{shop_name}}",
+        "Don't Miss {{shop_name}}'s Biggest Black Friday Sale, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}",
+        "Hurry, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}! Black Friday Deals Flying off the Shelves at {{shop_name}}",
+        "Exclusive Black Friday Deals Only for You, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}} at {{shop_name}}",
+        "Start Saving Today, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}! Black Friday Sale at {{shop_name}}",
+        "Early Access: Black Friday Sale for {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}} at {{shop_name}}",
+        "The Sale of the Year is Here, {{contact.first_name|default:hey}} {{contact.last_name|default:bargain hunter}}! Black Friday at {{shop_name}}"
+    ]
+}
+```
+```
+{
+    "prompt": "Create a personal subject line encouraging the recipient to start the New Year with healthy habits.",
+    "subject_lines": [
+        "Kickstart the New Year with a Healthier You!", 
+        "Your Journey to Wellness Begins This New Year!", 
+        "A New Year, A New You!", 
+        "New Year, New Health Goals - Are You Ready?", 
+        "Healthy New Year: Let's Get Started!", 
+        "Embrace Healthy Habits This New Year!", 
+        "Your Year to Be Healthy Begins Now!", 
+        "Fresh Year, Fresh Start to Health!", 
+        "Your Health Is Your New Year's Resolution!", 
+        "Make Health Your Priority This New Year!"
+    ]
+},
+
+{
+    "prompt": "Create a personalized subject line inviting a customer to participate in a product survey. Include {{contact.first_name|default:there}}.",
+    "subject_lines": [
+        "Hey {{contact.first_name|default:there}}, we value your opinion!",
+        "Share your experience with us, {{contact.first_name|default:there}}!",
+        "Got a minute, {{contact.first_name|default:there}}? Help us improve!",
+        "{{contact.first_name|default:there}}, want to share your thoughts?",
+        "Your feedback matters, {{contact.first_name|default:there}}!",
+        "We need your help, {{contact.first_name|default:there}}, to serve you better!",
+        "Your input needed! {{contact.first_name|default:there}}, can we hear your voice?",
+        "{{contact.first_name|default:there}}, help us to help you!",
+        "{{contact.first_name|default:there}}, your opinion can make a difference!",
+        "Help us grow, {{contact.first_name|default:there}}! Share your feedback!"
+    ]
+},
+
+{
+    "prompt": "Create a subject line for an email campaign promoting a limited time offer. Include {{contact.first_name|default:hey}}, include {{shop_name}}.",
+    "subject_lines": [
+        "{{contact.first_name|default:hey}}, Limited Offers are Live at {{shop_name}}!",
+        "Flash Sale Alert! {{contact.first_name|default:hey}}, check {{shop_name}} now!",
+        "{{contact.first_name|default:hey}}, Don't Miss Your Chance at {{shop_name}}'s Limited Offer!",
+        "Clock's Ticking, {{contact.first_name|default:hey}}! Limited Offer at {{shop_name}}",
+        "Snag the Best Deals, {{contact.first_name|default:hey}}! Limited Time Offer at {{shop_name}}",
+        "{{shop_name}}'s Exclusive Limited Time Offer is Here, {{contact.first_name|default:hey}}!",
+        "Limited Time, Unlimited Savings at {{shop_name}}, {{contact.first_name|default:hey}}!",
+        "Catch the Best Deals at {{shop_name}}, {{contact.first_name|default:hey}}! Limited Time Only!",
+        "Save Big at {{shop_name}}, {{contact.first_name|default:hey}}! Limited Offer Awaits!",
+        "Your Chance to Save at {{shop_name}}, {{contact.first_name|default:hey}}! Limited Time Offer!"
+    ]
+},
+
+{
+    "prompt": "Create a subject line for an email campaign announcing a new product line. Include {{contact.first_name|default:dear}}, include {{contact.last_name|default:customer}}, include {{shop_name}}.",
+    "subject_lines": [
+        "{{shop_name}} Reveals New Product Line, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "{{contact.first_name|default:dear}} {{contact.last_name|default:customer}}, Be the First to Explore {{shop_name}}'s New Range!",
+        "Exciting Product Line Up at {{shop_name}}, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "Not to Miss! New Product Line at {{shop_name}} - Hello {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "{{contact.first_name|default:dear}} {{contact.last_name|default:customer}}, Let's Welcome the New Product Line at {{shop_name}}!",
+        "New in Store! {{shop_name}}'s Fresh Product Selection for You, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "Check the Newest Additions at {{shop_name}}, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "{{contact.first_name|default:dear}} {{contact.last_name|default:customer}}, Discover New Products at {{shop_name}}!",
+        "Something New at {{shop_name}} for You, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!",
+        "Introducing New Product Line at {{shop_name}}, {{contact.first_name|default:dear}} {{contact.last_name|default:customer}}!"
+    ]
+},
+
+{
+    "prompt": "Create a subject line for an email campaign announcing a summertime event. Include {{shop_name}}.",
+    "subject_lines": [
+        "Summer Fest is Here! Join the Fun with {{shop_name}}",
+        "{{shop_name}}'s Summertime Event - You are Invited!",
+        "Cool Off This Summer with {{shop_name}}'s Exciting Event!",
+        "{{shop_name}}'s Summer Event - Let's Celebrate the Sunshine!",
+        "Dive Into Summer Fun with {{shop_name}}",
+        "Your Summer Just Got Better with {{shop_name}}'s Event!",
+        "Get Ready for {{shop_name}}'s Ultimate Summer Event!",
+        "Say Hello to Summer with {{shop_name}}'s Exciting Event!",
+        "Let's Celebrate Summer Together at {{shop_name}}!",
+        "Kick Off Your Summer with a Bang at {{shop_name}}'s Event!"
+    ]
+}
+```
+Sure, here are ten prompts along with corresponding subject lines:
+
+[
+    {
+        "prompt": "Create a personalised subject line in a Bold tone prompting a customer to explore the latest fitness apparel collection. Include {{shop_name}}.",
+        "subject_lines": ["Elevate Your Workout Game with Our Newest Collection at {{shop_name}}!", "Bold & Daring: Meet {{shop_name}}'s Fitness Collection!", "Step Up Your Fitness Journey with {{shop_name}}'s Apparel!"]
+    },
+    {
+        "prompt": "Create a personalised subject line in a Friendly tone reminding a customer about the items left in their shopping cart. Include {{contact.first_name|default:Friend}}.",
+        "subject_lines": ["Hey {{contact.first_name|default:Friend}}, You Left Something in Your Cart!", "{{contact.first_name|default:Friend}}, Your Cart is Waiting for You!", "There's Still Time, {{contact.first_name|default:Friend}}: Your Cart is Waiting!"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in a Formal tone announcing the annual end of season sale. Include {{contact.first_name|default:Valued Customer}}, include {{shop_name}}.",
+        "subject_lines": ["Dear {{contact.first_name|default:Valued Customer}}, Our Annual Sale at {{shop_name}} is Here!", "{{contact.first_name|default:Valued Customer}}, Take Advantage of End of Season Sale at {{shop_name}}!", "Exciting Savings Await, {{contact.first_name|default:Valued Customer}}, at {{shop_name}}'s End of Season Sale!"]
+    },
+    {
+        "prompt": "Create a personal subject line in a Professional tone encouraging the recipient to start the New Year with new ambitions.",
+        "subject_lines": ["Start the New Year off Right: New Goals, New Ambitions", "New Year, Renewed Ambitions: Time to Make Your Move", "Step into the New Year with Confidence and Ambition"]
+    },
+    {
+        "prompt": "Create a personalized subject line in a Convincing tone prompting a customer to check a special sale or offer. include {{contact.first_name|default:Shopper}}.",
+        "subject_lines": ["{{contact.first_name|default:Shopper}}, Don't Miss this Unbeatable Sale!", "Special Offer Just for You, {{contact.first_name|default:Shopper}}!", "{{contact.first_name|default:Shopper}}, Your Next Great Deal is Here!"]
+    },
+    {
+        "prompt": "Create a personalized subject line in a Joyful tone prompting a customer to check out a new collection of children's books. include {{shop_name}}.",
+        "subject_lines": ["{{shop_name}} Presents: A World of Adventure in our New Children's Books!", "Bring Joy to Reading Time with {{shop_name}}'s New Book Collection!", "Discover Magical Stories in {{shop_name}}'s New Children's Books Collection!"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in a Relaxed tone inviting customers to a virtual yoga event. include {{contact.first_name|default:Yogi}}, include {{contact.last_name|default:Enthusiast}}.",
+        "subject_lines": ["Find Your Zen, {{contact.first_name|default:Yogi}} {{contact.last_name|default:Enthusiast}}: Join our Virtual Yoga Event!", "{{contact.first_name|default:Yogi}} {{contact.last_name|default:Enthusiast}}, Unwind with Us at Our Virtual Yoga Event!", "Stretch, Breathe, Relax: {{contact.first_name|default:Yogi}} {{contact.last_name|default:Enthusiast}}, You're Invited to our Virtual Yoga Event!"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in a Compassionate tone announcing a charity drive. Include {{contact.first_name|default:Friend}}, include {{contact.last_name|default:Supporter}}, include {{shop_name}}.",
+        "subject_lines": ["Join {{shop_name}} in Making a Difference, {{contact.first_name|default:Friend}} {{contact.last_name|default:Supporter}}!", "{{contact.first_name|default:Friend}} {{contact.last_name|default:Supporter}}, Help Us Give Back with {{shop_name}}'s Charity Drive!", "Together, We Can Make an Impact: {{contact.first_name|default:Friend}}, {{contact.last_name|default:Supporter}}, {{shop_name}}'s Charity Drive is Here"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in an Enthusiastic tone announcing the annual mega festive sale. Include {{contact.first_name|default:hey}}, include {{contact.last_name|default:there}}, include {{shop_name}}.",
+        "subject_lines": ["Big Savings Alert, {{contact.first_name|default:hey}} {{contact.last_name|default:there}}: Mega Festive Sale at {{shop_name}}!", "Celebrate the Season with Amazing Deals at {{shop_name}}, {{contact.first_name|default:hey}} {{contact.last_name|default:there}}!", "{{contact.first_name|default:hey}} {{contact.last_name|default:there}}, Get Ready for {{shop_name}}'s Mega Festive Sale!"]
+    },
+    {
+        "prompt": "Create a subject line in a Luxury tone announcing the launch of an exclusive designer collection. Include {{shop_name}}.",
+        "subject_lines": ["Experience Elegance Redefined: {{shop_name}}'s Exclusive Designer Collection", "Step into Luxury with {{shop_name}}'s New Designer Collection", "Be the First to Explore {{shop_name}}'s Luxurious Designer Collection"]
+    }
+]
+1. 
+    {
+        "prompt": "Create a personalised subject line in a Bold tone prompting a customer to check a special Diwali sale. Include {{shop_name}}",
+        "subject_lines": ["Unveil the Special Diwali Sale at {{shop_name}}", "Exclusive Diwali Sale Alert at {{shop_name}}!", "Diwali Fiesta: Spectacular Deals at {{shop_name}}!", "Time to Light Up Your Diwali with Special Sale at {{shop_name}}!", "Outshine This Diwali with Exclusive Offers at {{shop_name}}"]
+    },
+2.  
+    {
+        "prompt": "Create a subject line for an email campaign in a Formal tone announcing the annual end of season sale. Include {{contact.first_name|default:Customer}}, Include {{shop_name}}",
+        "subject_lines": ["Greetings {{contact.first_name|default:Customer}}, Annual End of Season Sale Now at {{shop_name}}", "Dear {{contact.first_name|default:Customer}}, It's Time for Our Annual End of Season Sale at {{shop_name}}", "Annual End of Season Sale: Exclusive Offers Await You, {{contact.first_name|default:Customer}}, at {{shop_name}}", "Formal Invitation: {{contact.first_name|default:Customer}}, Join Us for the End of Season Sale at {{shop_name}}"]
+    },
+3.  
+    {
+        "prompt": "Create a personal subject line in a Professional tone encouraging the recipient to start the New Year with new ambitions.",
+        "subject_lines": ["Step into the New Year with Fresh Aspirations. Let's Make it Happen!", "A New Year, A Fresh Start: Carve Your Path to Success", "Ring in the New Year with New Ambitions and Goals", "New Year, New Aspirations: Let's Kick Start Your Journey to Success"]
+    },
+4.  
+    {
+        "prompt": "Create a personalized subject line in a Convincing tone prompting a customer to check a special Holi sale. Include {{contact.first_name|default:Hey}}",
+        "subject_lines": ["{{contact.first_name|default:Hey}}, Don't Miss Out on Our Holi Special Sale!", "Turn Your Holi Colorful with Our Special Sale, {{contact.first_name|default:Hey}}!", "Make Your Holi Vibrant: Special Sale Just for You, {{contact.first_name|default:Hey}}!", "{{contact.first_name|default:Hey}}, Add Colors to Your Holi with Our Special Sale!"]
+    },
+5.  
+    {
+        "prompt": "Create a personalized subject line in a Joyful tone prompting a customer to check a special Puja sale. Include {{contact.last_name|default:Shopper}}",
+        "subject_lines": ["{{contact.last_name|default:Shopper}}, Your Puja Celebrations Just Got Better with Our Special Sale!", "Join the Puja Festivities with Our Special Sale, {{contact.last_name|default:Shopper}}!", "Joyful Puja Sale for a Joyful Shopper like {{contact.last_name|default:Shopper}}!", "Celebrate Puja in Full Swing: Check Out Our Special Sale, {{contact.last_name|default:Shopper}}!"]
+    },
+6.  
+    {
+        "prompt": "Create a personalized subject line in a Luxury tone prompting a customer to check a special festive sale. Include {{shop_name}}",
+        "subject_lines": ["Unleash Luxury Shopping at {{shop_name}} This Festive Season", "Experience Luxury Shopping With Our Festive Sale at {{shop_name}}", "Luxurious Deals Await You at {{shop_name}}'s Festive Sale", "Extended Luxury: Festive Sale Now Live at {{shop_name}}"]
+    },
+7.  
+    {
+        "prompt": "Create a subject line for an email campaign in a Relaxed tone announcing a spectacular new furniture collection available. Include {{contact.first_name|default:Dear}}, Include {{contact.last_name|default:Homeowner}}",
+        "subject_lines": ["{{contact.first_name|default:Dear}} {{contact.last_name|default:Homeowner}}, Unwind with Our New Furniture Collection", "Relax, {{contact.first_name|default:Dear}} {{contact.last_name|default:Homeowner}}. We've Got Your Furniture Needs Covered", "Ease Into Comfort: New Furniture Collection for {{contact.first_name|default:Dear}} {{contact.last_name|default:Homeowner}}", "Breathe Easy, {{contact.first_name|default:Dear}} {{contact.last_name|default:Homeowner}}: Your Dream Furniture is Here"]
+    },
+8.  
+    {
+        "prompt": "Create a subject line for an email campaign in an Enthusiastic tone announcing the annual end of season sale. Include {{contact.first_name|default:Enthusiast}}, Include {{contact.last_name|default:Shopper}}, Include {{shop_name}}",
+        "subject_lines": ["Hey {{contact.first_name|default:Enthusiast}} {{contact.last_name|default:Shopper}}, Gear Up for the Annual Sale at {{shop_name}}!", "It's That Time of the Year, {{contact.first_name|default:Enthusiast}} {{contact.last_name|default:Shopper}}: End of Season Sale at {{shop_name}}!", "Hurray! {{contact.first_name|default:Enthusiast}} {{contact.last_name|default:Shopper}}, The Annual Sale at {{shop_name}} is Here!", "{{contact.first_name|default:Enthusiast}} {{contact.last_name|default:Shopper}}, Are You Ready for the End of Season Sale at {{shop_name}}?"]
+    },
+9.  
+    {
+        "prompt": "Create a smooth subject line in a Relaxed tone encouraging the recipient to begin the Christmas season with joy and peace.",
+        "subject_lines": ["Unwind into the Christmas Season: Time for Joy, Peace and Merriment", "Ease into the Holiday Spirit: Let the Christmas Magic Begin", "Relax, It's Christmas Time: Start Your Season with Joy and Peace", "Comfort and Joy: Embrace the Christmas Season with Happiness"]
+    },
+10. 
+    {
+        "prompt": "Create a cheerful subject line in a Joyful tone alerting customers about an upcoming event. Include {{shop_name}}",
+        "subject_lines": ["{{shop_name}} Invites You to a Joyful Event: Don't Miss Out!", "Exciting Event Coming Up at {{shop_name}}: Spread the Joy!", "Live the Joy: Special Event Alert from {{shop_name}}", "Embrace Joy: Join us for the Upcoming Event at {{shop_name}}"]
+    }
+
+1. 
+Prompt: Create a subject line for an email campaign in a Joyful tone announcing the launch of our new Spring collection. Include {{contact.first_name|default:Hey}} and {{shop_name}}.
+Subject Lines: ["{{contact.first_name|default:Hey}}, {{shop_name}} has launched the Spring collection! Time to shop!", "{{contact.first_name|default:Hey}}, new Spring collection at {{shop_name}}! Upgrade your wardrobe today!", "New Spring collection at {{shop_name}}! Come see, {{contact.first_name|default:Hey}}!"]
+
+2.
+Prompt: Create a subject line for an email campaign in a Compassionate tone offering a special discount for healthcare workers. Include {{contact.first_name|default:Dear}}.
+Subject Lines: ["{{contact.first_name|default:Dear}}, Enjoy an exclusive discount for healthcare workers", "Special discount for healthcare heroes! {{contact.first_name|default:Dear}}, this one is for you!", "Healthcare workers discount! {{contact.first_name|default:Dear}}, you've earned it!"]
+
+3.
+Prompt: Create a subject line for an email campaign in a Bold tone announcing the grand opening of a new branch of {{shop_name}}.
+Subject Lines: ["{{shop_name}} opens a new branch! Come and experience shopping like never before!", "New Store Alert! {{shop_name}} is now closer to you!", "Big news! {{shop_name}} just opened a new branch!"]
+
+4.
+Prompt: Create a subject line for an email with a Friendly tone, inviting the receiver to a virtual seminar. Include {{contact.first_name|default:Friend}}.
+Subject Lines: ["{{contact.first_name|default:Friend}}, we'd love for you to join our virtual seminar!", "{{contact.first_name|default:Friend}}, let's learn together in our upcoming virtual seminar!", "Virtual seminar invitation for {{contact.first_name|default:Friend}}"]
+
+5.
+Prompt: Create a subject line for an email campaign in a Convincing tone encouraging customers to check out the clearance sale at {{shop_name}}.
+Subject Lines: ["Clearance sale at {{shop_name}}! Don't miss out on these great deals!", "Say goodbye to full price! Clearance sale now live at {{shop_name}}!", "Super savings at the {{shop_name}} clearance sale! Limited time only!"]
+
+6.
+Prompt: Create a subject line for an email campaign in a Luxury tone announcing the launch of a premium product line. Include {{shop_name}}.
+Subject Lines: ["Experience Luxury like never before with {{shop_name}}'s new premium line", "{{shop_name}} presents its new premium line. Indulge in the best!", "Luxury has a new name – Try {{shop_name}}'s premium product line"]
+
+7.
+Prompt: Create a personalised subject line in a Relaxing tone, reminding the customer of their abandoned cart. Include {{contact.first_name|default:Hey}}, {{contact.last_name|default:Shopper}}.
+Subject Lines: ["{{contact.first_name|default:Hey}} {{contact.last_name|default:Shopper}}, don't forget your cart at {{shop_name}}", "{{contact.first_name|default:Hey}}, we noticed you left something in your cart at {{shop_name}}", "Your cart misses you, {{contact.first_name|default:Hey}}!"]
+
+8.
+Prompt: Create a subject line for an email campaign in a Professional tone offering a business partnership. Include {{contact.first_name|default:Sir/Madam}}.
+Subject Lines: ["{{contact.first_name|default:Sir/Madam}}, we're interested in a business partnership with you", "Looking for a strong business partnership, {{contact.first_name|default:Sir/Madam}}", "Let's create business magic together, {{contact.first_name|default:Sir/Madam}}"]
+
+9.
+Prompt: Create a subject line in a Bold tone announcing a Black Friday sale at {{shop_name}}.
+Subject Lines: ["Get ready for the biggest Black Friday sale at {{shop_name}}!", "Black Friday Madness at {{shop_name}}! Shop till you drop!", "Unbelievable Black Friday discounts at {{shop_name}}! Don't miss it!"]
+
+10. 
+Prompt: Create a subject line for an email campaign in an Enthusiastic tone announcing a free webinar.
+Subject Lines: ["Get excited for our free webinar! Learn from the best!", "Join our free webinar and boost your skills!", "Here's your chance to learn something new! Free webinar invitation"]
+1. 
+   "prompt": "Create a personalized subject line in a Joyful tone encouraging the customer to explore {{shop_name}}'s back-to-school collection"
+   "subject_lines": [
+       "{{contact.first_name|default:Hey}}, uncover joy with {{shop_name}}'s back-to-school collection!",
+       "Start the school year on a high with {{shop_name}}'s exciting collection, {{contact.first_name|default:Friend}}!",
+       "Time for some school shopping fun at {{shop_name}}, {{contact.first_name|default:Buddy}}!"
+   ]
+
+2. 
+   "prompt": "Create a subject line in a Luxury tone informing the customer about the exclusive premium range at {{shop_name}}."
+   "subject_lines": [
+       "Step into luxury with {{shop_name}}'s exclusive premium range, {{contact.first_name|default:distinguished guest}}!",
+       "Indulge in opulence with {{shop_name}}'s premium collection, {{contact.first_name|default:Esteemed Customer}}!",
+       "Experience the pinnacle of luxury at {{shop_name}}, {{contact.first_name|default:Valued Patron}}!"
+   ]
+
+3. 
+   "prompt": "Create a subject line in a Bold tone prompting customers to check out the clearance sale at {{shop_name}}."
+   "subject_lines": [
+       "Act fast, {{contact.first_name|default:shopper}}! Score big at {{shop_name}}'s clearance sale!",
+       "Dive into savings with {{shop_name}}'s big clearance sale, {{contact.first_name|default:bargain hunter}}!",
+       "Bold savings await you at {{shop_name}}'s clearance sale, {{contact.first_name|default:deal seeker}}!"
+   ]
+
+4. 
+   "prompt": "Create a subject line in a Relaxed tone inviting customers to enjoy a calm shopping experience at {{shop_name}}."
+   "subject_lines": [
+       "Take it easy, {{contact.first_name|default:buddy}}, enjoy calm shopping at {{shop_name}}!",
+       "Relax and shop at {{shop_name}}, {{contact.first_name|default:friend}}!",
+       "Choose serenity with a calm shopping experience at {{shop_name}}, {{contact.first_name|default:dear customer}}!"
+   ]
+
+5. 
+   "prompt": "Create a personal subject line in a Professional tone encouraging the recipient to start the New Year with new ambitions."
+   "subject_lines": [
+       "Welcome 2022, {{contact.first_name|default:friend}}! Let's achieve new heights together",
+       "Hello {{contact.first_name|default:there}}, ready to conquer 2022's goals?",
+       "New Year, new ambitions, {{contact.first_name|default:goal getter}}!"
+   ]
+
+6. 
+   "prompt": "Create a subject line for an email campaign in a Friendly tone announcing the arrival of a new summer collection."
+   "subject_lines": [
+       "Hey {{contact.first_name|default:friend}}, summer just got better with our new collection!",
+       "Sunshine and style await, {{contact.first_name|default:buddy}}! Check out our summer collection",
+       "Hello {{contact.first_name|default:there}}, dive into summer with our fresh new collection!"
+   ]
+
+7. 
+   "prompt": "Create a persuasive subject line about the exclusive members' offer in a Convincing tone. include {{contact.first_name|default:valued member}}."
+   "subject_lines": [
+       "Exclusive just for you, {{contact.first_name|default:valued member}}! Members' only offer",
+       "{{contact.first_name|default:there}}, don't miss our exclusive members' offer!",
+       "Unlock your exclusive members' offer, {{contact.first_name|default:valued member}}!"
+   ]
+
+8. 
+   "prompt": "Create a compelling subject line in a Compassionate tone, inviting customers to join charitable cause. include {{shop_name}}."
+   "subject_lines": [
+       "Together we can make a difference, {{contact.first_name|default:there}}. Join us at {{shop_name}}.",
+       "Join hands with {{shop_name}}, {{contact.first_name|default:friend}}. Be part of the solution.",
+       "{{contact.first_name|default:Partner}}, help us bring a change with {{shop_name}}."
+   ]
+
+9. 
+   "prompt": "Create a captivating subject line in an Enthusiastic tone announcing {{shop_name}}'s festive sales."
+   "subject_lines": [
+       "Get excited, {{contact.first_name|default:shopper}}! Our festive sales are here",
+       "Celebrate savings like never before, {{contact.first_name|default:there}}! {{shop_name}}'s festive sales are on.",
+       "It's that happy time of the year, {{contact.first_name|default:friend}}! {{shop_name}}'s festive sales are live."
+   ]
+
+10. 
+   "prompt": "Create a formal subject line announcing the annual end of season sale. Include {{contact.first_name|default:customer}}, include {{shop_name}}."
+   "subject_lines": [
+       "Dear {{contact.first_name|default:customer}}, {{shop_name}} invites you to our end of season sale",
+       "Exclusive Invitation: End of Season Sale at {{shop_name}} for {{contact.first_name|default:customer}}",
+       "{{contact.first_name|default:Valued customer}}, don't miss {{shop_name}}'s much-awaited end of season sale"
+   ]
+1. Prompt: Create a subject line for an email campaign in an Enthusiastic tone announcing a new addition to our tech products. Include {{contact.first_name|default:Techie}} and {{shop_name}}.
+
+2. Prompt: Craft a subject line in a Bold tone introducing our exclusive summer collection. Include {{contact.first_name|default:Fashionista}}.
+
+3. Prompt: Compose a subject line in a Compassionate tone offering a special discount for seniors. Include {{contact.first_name|default:Valued Customer}} and {{shop_name}}. 
+
+4. Prompt: Design a personal subject line in a Convincing tone prompting a customer to revisit our website for the latest deals. Include {{contact.last_name|default:Friend}}.
+
+5. Prompt: Create a subject line for an email campaign in a Formal tone announcing our upcoming webinar. Include {{contact.first_name|default:Participant}} and {{shop_name}}.
+
+6. Prompt: Develop a subject line in a Freshly tone for our barbecue grills sale. 
+
+7. Prompt: Make a personalised subject line in a Joyful tone promoting our weekend special discounts. Include {{contact.first_name|default:Shopaholic}} and {{contact.last_name|default:Friend}}. 
+
+8. Prompt: Draft a subject line in a Luxury tone advertising our new designer handbags collection. Include {{contact.first_name|default:Divine diva}}, {{contact.last_name|default: Fashion Lover}}, and {{shop_name}}.
+
+9. Prompt: Create a subject line in a Professional tone informing about our new policy updates. Include {{contact.first_name|default:Esteemed user}}.
+
+10. Prompt: Write a subject line in a Relaxed tone notifying about the availability of our best-selling books. Include {{shop_name}}. 
+
+Example of Subject Lines:
+[
+    {
+        "prompt": "Create a subject line for an email campaign in an Enthusiastic tone announcing a new addition to our tech products. Include {{contact.first_name|default:Techie}} and {{shop_name}}.",
+        "subject_lines": ["Get Excited, Techie! New Tech Gear Just Landed at {{shop_name}}!", "Hey Techie, {{shop_name}} Welcomes the Newest Addition in Tech!", ....]
+    },
+    {
+        "prompt": "Craft a subject line in a Bold tone introducing our exclusive summer collection. Include {{contact.first_name|default:Fashionista}}.",
+        "subject_lines": ["Attention, Fashionista! Our Exclusive Summer Collection is Here!", "Bold New Styles Just for You, Fashionista!", ....]
+    }
+    ....
+]
+1. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Bold tone announcing a special Holi sale. Include {{contact.first_name|default:hey}}, include {{shop_name}}.",
+      "subject_lines": ["Unleash the bold colors of Holi with {{shop_name}}, {{contact.first_name|default:hey}}!", "Step into a vibrant Holi season with {{shop_name}}'s sale, {{contact.first_name|default:hey}}!"]
+    },
+
+2. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Relaxed tone introducing a new product line. Include {{contact.first_name|default:hey}}, include {{shop_name}}.",
+      "subject_lines": ["Relax, {{contact.first_name|default:hey}}. {{shop_name}} has got your needs covered with our new product line", "Easy living, {{contact.first_name|default:hey}}. Discover new product line at {{shop_name}}"]
+    },
+
+3. 
+    {
+      "prompt": "Create a subject line for an email in a Professional tone encouraging the recipient to avail the mid-year clearance sale. Include {{shop_name}}.",
+      "subject_lines": ["Mid-Year Professional Clearance: Good Business Moves Start at {{shop_name}}", "Fair Prices, Quality Goods. Avail the mid-year clearance sale at {{shop_name}}."]
+    },
+
+4. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Enthusiastic tone announcing the annual end of season sale. Include {{contact.first_name|default:Art}}, include {{contact.last_name|default:lover}}, include {{shop_name}}.",
+      "subject_lines": ["{{contact.first_name|default:Art}}, Don't Miss {{shop_name}}'s End of Season Sale!", "Score Big, {{contact.first_name|default:Art}} {{contact.last_name|default:lover}}! {{shop_name}}'s End of Season Sale is Live!"]
+    },
+
+5. 
+    {
+      "prompt": "Create a personalized subject line in a Friendly tone prompting a customer to check a special sale or offer. include {{contact.first_name|default:hey}}.",
+      "subject_lines": ["Hey {{contact.first_name|default:friend}}, We've got a special sale just for you!", "Psst, {{contact.first_name|default:friend}}! Secret Sale Alert..."]
+    },
+
+6. 
+    {
+      "prompt": "Create a personalized subject line in a Joyful tone encouraging the subscriber to join in celebrating our anniversary. Include {{contact.first_name|default:loyal customer}}, include {{shop_name}}.",
+      "subject_lines": ["{{contact.first_name|default:loyal member}}, help {{shop_name}} blow out our anniversary candles!", "{{shop_name}} Turns Another Year Older, and You're Invited to the Party, {{contact.first_name|default:loyal member}}!"]
+    },
+
+7. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Convincing tone enticing recipients to partake in the loyalty program. No placeholders needed.",
+      "subject_lines": ["Unlock a World of Rewards! Get in Our Loyalty Program Today", "Want Extra Benefits? Join Our Loyalty Program!"]
+    },
+
+8. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Luxury tone introducing an exclusive new collection of designer wear. No placeholders needed.",
+      "subject_lines": ["Step into the world of Elegance with our Exclusive Designer Collection", "Experience Luxury like Never Before with our New Designer Collection"]
+    },
+
+9. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Compassionate tone urging customers to contribute to a charity event. Include {{contact.first_name|default:caring friend}}, include {{shop_name}}.",
+      "subject_lines": ["{{contact.first_name|default:caring friend}}, help {{shop_name}} make a difference", "{{contact.first_name|default:caring friend}}, change lives with us at {{shop_name}}"]
+    },
+
+10. 
+    {
+      "prompt": "Create a subject line for an email campaign in a Formal tone announcing a special Diwali sale at amazon. Include {{shop_name}}.",
+      "subject_lines": ["Illuminate Your Diwali with Special Offers at {{shop_name}}", "Experience the Joy of Savings this Diwali at {{shop_name}}"]
+    }

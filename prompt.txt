@@ -1,0 +1,76 @@
+# Task
+Create ten prompts for an email campaign, with each prompt centered on a unique, relevant use case.
+Come up with your own unique and relevant use cases.They could be related to introducing new products, promotional offers, an upcoming event, festive sales such as diwali sale\holi sale\puja sale or personalized suggestions. Feel free to incorporate templates like `{{contact.first_name|default:hey}}`, `{{contact.last_name|default:there}}`, or `{{shop_name}}` as per suitability.
+make sure that you include a 'default' for first_name and last_name templates and NOT for shop_name.
+
+# Available tones
+The available tones are: ["Enthusiastic" , "Bold", "Compassionate", "Convincing", "Formal", "Friendly", "Joyful", "Luxury", "Professional", "Relaxed"]
+Each of the 10 subject lines should have a different tone.
+
+Suppose you decide to include Bold tone for one of the prompts, the prompt would look like this:
+Create a personalised subject line in a Bold tone prompting a customer to check a special sale or offer.
+
+Suppose you decide to include Friendly tone for one of the prompts, the prompt would look like this:
+Create a personalised subject line in a Friendly tone prompting a customer to check a special sale or offer.
+
+# Example
+Strictly follow this format:
+1) If you decide to include the template {{shop_name}} and lets say the tone is Bold, it should be like:
+    Create a personalised subject line in a Bold tone prompting a customer to check a special sale or offer. include {{shop_name}}.
+    use `include {{shop_name}}` at the end.
+
+2) similarly if you decide to include two templates lets say {{contact.first_name|default:there}} and {{shop_name}}, and the tone is lets say Formal then the prompt would look like this:
+Create a subject line for an email campaign in a Formal tone announcing the annual end of season sale. Include {{contact.first_name|default:hey}}, include {{shop_name}}.
+
+Each prompt can use any no. of these templates, replace the 'default' placeholders if necessary.
+Example: Instead of `{{contact.first_name|default:hey}}`, you could use `{{contact.first_name|default:there}}` if it better fits the subject line.
+Make sure that the "default" value makes sense in the subject line.
+
+Each prompt can leverage none, one, two or all three placeholder templates, along with a tone from the list of available tones.
+
+The tone should be taken at random. it might or might not be related to the rest of the prompt.
+You can use none of these templates as well. Please include at least two prompts that contains none of the placeholders. Do not add phrases such as "Do not use any placeholders" in the prompt. for example:
+Create a personal subject line in a Professional tone encouraging the recipient to start the New Year with new ambitions.
+
+Or, you can use any one of the templates such as:
+Create a personalized subject line in a Convincing tone prompting a customer to check a special sale or offer. include {{contact.first_name|default:hey}}.
+or,
+Create a personalized subject line in a Joyful tone prompting a customer to check a special sale or offer. include {{contact.last_name|default:there}}.
+or,
+Create a personalized subject line in a Luxury tone prompting a customer to check a special sale or offer. include {{shop_name}}.
+
+Or, you can use two of the three templates such as:
+Create a subject line for an email campaign in a Relaxed tone announcing a spectacular new furniture collection available. include {{contact.first_name|default:hey}}, include {{contact.last_name|default: there}},
+Create a subject line for an email campaign in a Bold tone announcing a spectacular new furniture collection available. include {{contact.first_name|default:hey}}, include {{shop_name}},
+Create a subject line for an email campaign in a Friendly tone announcing a spectacular new furniture collection available. include {{contact.last_name|default:hey}}, include {{shop_name}}
+
+Or, you can use all three of them. please include at-least two prompts that includes all the three templates such as:
+Create a subject line for an email campaign in a Enthusiastic tone announcing the annual end of season sale. Include {{contact.first_name|default:Art}}, include {{contact.last_name|default:lover}}, include {{shop_name}}.
+
+Following the creation of these 10 prompts, compose ten unique subject lines for each one. These subject lines will utilize placeholders where appropriate and should portray a diverse range of tones and styles, from formal to casual.
+
+Please format your response as a list of dictionaries, each containing the original prompt and the corresponding subject lines.
+See the following example for reference:
+
+# Format
+[
+    {
+        "prompt": "Create a subject line for a newsletter in a Enthusiastic tone announcing an exclusive art exhibition happening this weekend. Include {{contact.first_name|default:Art lover}}.",
+        "subject_lines": ["subject line 1", "subject line 2, ....,subject line 10"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in a Bold tone announcing a spectacular new furniture collection available. include {{contact.first_name|default:hey}}, include {{contact.last_name|default: there}}",
+        "subject_lines": ["subject line 1", "subject line 2, ....,subject line 10"]
+    },
+    {
+        "prompt": "Create a subject line for an email campaign in a Compassionate tone announcing the annual end of season sale. Include {{contact.first_name|default:Art}}, include {{contact.last_name|default:lover}}, include {{shop_name}}.",
+        "subject_lines": ["subject line 1", "subject line 2, ....,subject line 10"]
+    },
+    {
+        "prompt": "Create a subject line for an email in a Convincing tone announcing a special Diwali sale at amazon. Include {{shop_name}}",
+        "subject_lines": ["subject line 1", "subject line 2, ....,subject line 10"]
+    }
+]
+and so on.
+
+Let your creativity guide you in the creation of compelling subject lines!
