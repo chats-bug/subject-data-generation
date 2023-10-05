@@ -1,4 +1,6 @@
 rich
 openai
-tiktoken
+tiktoken==0.5.1
 python-dotenv
+rouge_score
+seaborn

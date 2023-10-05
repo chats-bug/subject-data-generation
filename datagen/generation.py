@@ -72,14 +72,14 @@ if __name__ == "__main__":
     with open(prompt_file_path) as f:
         prompt = f.read()
 
-    prompts = [prompt] * 20
+    prompts = [prompt] * 25
 
     completions = generate_completions(
         prompts,
         OpenAiChatModels.GPT_4,
-        OpenAIDecodingArguments(temperature=0.9, max_tokens=4000),
+        OpenAIDecodingArguments(temperature=1.0, max_tokens=4000),
         use_max_tokens=False,
-        num_workers=4,
+        num_workers=5,
     )
 
     total_subject_lines = 0

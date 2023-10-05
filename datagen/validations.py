@@ -46,8 +46,9 @@ def get_validated_data(
         if not check:
             if log:
                 console.log(f"[bold red]Error: Subject {i+1} is not valid")
-            continue
-        valid_data.append(subject_line)
+            # continue
+        else: 
+            valid_data.append(subject_line)
         if log:
             console.log(f"[bold green]Success: Subject {i+1} is valid")
     return valid_data
